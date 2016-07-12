@@ -14,10 +14,18 @@ namespace Cheers
             String user_name = Console.ReadLine();//read from terminal save to a variable
             //input has to be a string above
             Console.WriteLine(user_name);
+            
+            for(int i =0; i < user_name.Length; i++){
+                Console.WriteLine("Give me a .. "+ user_name[i]);
+
+            }
+            
             //user_name.ToUpper() is turning user's name to uppercase
             //ToUpper() is functionality specific to strings
             //ToUpper() accepts no arguments
+
             Console.WriteLine(user_name.ToUpper() + " is..GRAND!");
+
         }
     }
 }
