@@ -9,14 +9,18 @@ namespace Cheers
     {
         public static void Main(string[] args)
         {
+            //variables section
+            String prompt = "> ";
+            String cheer_prefix = "Give me a";
+            
             Console.WriteLine("What's your name?");
-            Console.Write("> ");
+            Console.Write(prompt);
             String user_name = Console.ReadLine();//read from terminal save to a variable
             //input has to be a string above
             Console.WriteLine(user_name);
             
             for(int i =0; i < user_name.Length; i++){
-                Console.WriteLine("Give me a .. "+ user_name[i]);
+                Console.WriteLine(cheer_prefix +  " .. "+ user_name[i]);
 
             }
             
