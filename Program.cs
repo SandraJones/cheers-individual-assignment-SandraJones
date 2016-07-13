@@ -63,6 +63,15 @@ namespace Cheers
             // ToUpper() accepts no arguments
 
             Console.WriteLine(user_name.ToUpper() + " is.. GRAND!"); //
+            Console.WriteLine("What is your birthdate?");
+            String birth_date = Console.ReadLine();
+            String[] BDayArray = birth_date.Split('/');
+            int Month1 = int.Parse(BDayArray[0]); 
+            int Day1 = int.Parse(BDayArray[1]);
+            
+            DateTime.birth_date = new DateTime(;
+            string[] longbirth_dateFormats = birth_date.GetDateTimeFormats('D');
+            Console.WriteLine(x.ToString());     
         }
     }
 }

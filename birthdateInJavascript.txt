@@ -1,0 +1,14 @@
+var birthdayFunction = function(){
+  var response1 = prompt("What month is your birthday(August = 8, December=12, etc.)?", "");
+  var response2 = prompt(What day of the month among the 31 possible days is your birthday?, "");
+  //convert strings to values that can be added and subtracted
+  
+
+}
+
+var getCurrentDateInMonthAndDay = function (){
+  var month = dt.getMonth()+1;
+  var day = dt.getDate();
+  document.write(month + '-' + day);
+  return (month + '-' day);
+}
